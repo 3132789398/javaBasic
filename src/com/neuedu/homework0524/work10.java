@@ -10,7 +10,7 @@ public class work10 {
         int a = scanner.nextInt();
         int b=0;
         int e=a;
-        while (a%9!=0) {
+        while (a!=0) {
             b = b + (a % 10);
             a = a /10;
         }

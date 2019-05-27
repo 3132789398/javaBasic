@@ -14,6 +14,5 @@ public class work05 {
             }
         }
         System.out.println("偶数和为："+a+" "+"奇数和为："+b);
-
     }
 }

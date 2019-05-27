@@ -15,7 +15,7 @@ public class work07 {
         }else if(a%400==0){
             System.out.println(a+"此年为世纪闰年");
         }else {
-            System.out.println(a+"此年不是闰年");
+            System.out.println(a+"此年是平年");
         }
     }
 }

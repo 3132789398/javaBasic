@@ -13,14 +13,12 @@ public class work06 {
         int d=a%1000/100;
         int e=a%100/10;
         int f=a%10;
-        if (10000<=a&&a<=100000) {
+        if (10000<=a&&a<100000) {
             if(b==f&&c==e){
                 System.out.println(a+"：这个数字是回文数");
             }else {
                 System.out.println(a+"：这个数字不是回文数");
             }
-        }else {
-            System.out.println("输入的不是个五位数");
         }
 
     }
