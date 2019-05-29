@@ -1,4 +1,4 @@
-package com.neuedu.homwwork0529.work01;
+package com.neuedu.homework0529.work01;
 
 import java.util.Scanner;
 

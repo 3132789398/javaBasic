@@ -1,4 +1,4 @@
-package com.neuedu.homwwork0529.work02;
+package com.neuedu.homework0529.work02;
 
 public class Instrument {
     public void play(){

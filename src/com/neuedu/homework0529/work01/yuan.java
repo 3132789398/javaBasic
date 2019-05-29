@@ -1,4 +1,4 @@
-package com.neuedu.homwwork0529.work01;
+package com.neuedu.homework0529.work01;
 
 public class yuan {
     private int r;
