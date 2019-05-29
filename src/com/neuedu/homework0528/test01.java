@@ -44,6 +44,62 @@ public class test01 {
         study1.setScorn3(scorn31);
         System.out.println(study1.toString());
 
+        System.out.println("请输入学号");
+        int xuehao2=scanner.nextInt();
+        System.out.println("请输入姓名");
+        String name2=scanner.next();
+        System.out.println("请输入数学");
+        int scorn13=scanner.nextInt();
+        System.out.println("请输入语文");
+        int scorn=scanner.nextInt();
+        System.out.println("请输入英语");
+        int scorn23=scanner.nextInt();
+
+        work01 study2=new work01();
+        study2.setName(name2);
+        study2.setXuehao(xuehao2);
+        study2.setScorn1(scorn13);
+        study2.setScorn2(scorn);
+        study2.setScorn3(scorn23);
+        System.out.println(study2.toString());
+
+        System.out.println("请输入学号");
+        int xuehao3=scanner.nextInt();
+        System.out.println("请输入姓名");
+        String name3=scanner.next();
+        System.out.println("请输入数学");
+        int scorn8=scanner.nextInt();
+        System.out.println("请输入语文");
+        int scorn7=scanner.nextInt();
+        System.out.println("请输入英语");
+        int scorn9=scanner.nextInt();
+
+        work01 study3=new work01();
+        study3.setName(name3);
+        study3.setXuehao(xuehao3);
+        study3.setScorn1(scorn8);
+        study3.setScorn2(scorn7);
+        study3.setScorn3(scorn9);
+        System.out.println(study3.toString());
+
+        System.out.println("请输入学号");
+        int xuehao5=scanner.nextInt();
+        System.out.println("请输入姓名");
+        String name7=scanner.next();
+        System.out.println("请输入数学");
+        int scorn4=scanner.nextInt();
+        System.out.println("请输入语文");
+        int scorn5=scanner.nextInt();
+        System.out.println("请输入英语");
+        int scorn6=scanner.nextInt();
+
+        work01 study4=new work01();
+        study4.setName(name7);
+        study4.setXuehao(xuehao5);
+        study4.setScorn1(scorn4);
+        study4.setScorn2(scorn5);
+        study4.setScorn3(scorn6);
+        System.out.println(study4.toString());
 
     }
 }
